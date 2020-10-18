@@ -18,7 +18,7 @@ tags:
 
 Άσκηση: Προσθέστε έλεγχο για email, credit card, ελληνικό τηλεφωνικό νούμερο. 
 
- ## HTML
+//////////////////////////////////////////////
 <form>
   <h2>Phone Number Validation</h2>
   <label for="phonenum">Phone Number (format: xxxx-xxx-xxxx):</label><br/>
@@ -53,7 +53,7 @@ tags:
   
   
   
-  ## CSS
+
   
   
   
