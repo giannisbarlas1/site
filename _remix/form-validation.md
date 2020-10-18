@@ -19,66 +19,11 @@ tags:
 Άσκηση: Προσθέστε έλεγχο για email, credit card, ελληνικό τηλεφωνικό νούμερο. 
 
 
-HTML
-<form>
-  <h2>Phone Number Validation</h2>
-  <label for="phonenum">Phone Number (format: xxxx-xxx-xxxx):</label><br/>
-  <input id="phonenum" type="tel" pattern="^\d{4}-\d{3}-\d{4}$" required >
-    <input type="submit" value="Submit">
-<br>
-  
-  
- <h2>Email Validation</h2>
-       <label for="phoenenum">Email
-       (format:xxxxxxxx@xxxxx.xxx):</label><br>
-       <input id="phoenenum" type"tel"
-       pattern="^\d{4}-\d{3}-\d{4}$" required >
-       <input type="submit" value="Submit">
- 
-  
-  <h3>Credit Card Validation</h3>
-       <label for="phoenenum">credit card
-       (format:xxxx-xxxx-xxxx-xxxx):</label>
-       <br> <input id="phoenenum" type"tel"
-       pattern="^\d{4}-\d{3}-\d{4}$" required >
-       <input type="submit" value="Submit">
-  <br>
-  
-  <h2>Ελληνικό Τηλεφωνικό Νούμερο</h2>
-       <label for="phoenenum">ελληνικο τηλεφωνικο νουμερο
-       (format:+30xxxxxxxx):</label><br>
-       <input id="phoenenum" type"tel"
-       pattern="^\d{4}-\d{3}-\d{4}$" required >
-       <input type="submit" value="Submit">
-  <form>
-  
-  
- css
-  
-  input[type="tel"] {
-  border: 1px solid #ddd;
-  padding: 4px 8px;
-}
-input[type="tel"]:focus {
-  border: 1px solid #000;
-}
-
-input[type="submit"] {
-  font-weight: bold;
-  padding: 4px 8px;
-  border:1px solid #000;
-  background: #3b5998;
-  color:#fff;
-}
-
-form {
-  width: 50%;
-  margin: 0 auto;
-}
-
-.p {
-  padding-top: 30px;
-}
-  
+<p class="codepen" data-height="345" data-theme-id="light" data-default-tab="css,result" data-user="p19barl" data-slug-hash="XWKKdLa" style="height: 345px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Form Validation">
+  <span>See the Pen <a href="https://codepen.io/p19barl/pen/XWKKdLa">
+  Form Validation</a> by p2019009 (<a href="https://codepen.io/p19barl">@p19barl</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
   
   
